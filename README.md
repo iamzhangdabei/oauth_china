@@ -89,7 +89,8 @@ end
 *  注意
 
 系统时间要正确设置。否则会出现timstamps refused错误
-
+* 新增加功能
+获得新浪微薄当前授权用户的信息
 #API文档
 
 * 腾讯微博API文档：http://open.t.qq.com/resource.php?i=1,1
