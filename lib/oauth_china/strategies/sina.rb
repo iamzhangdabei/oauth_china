@@ -25,11 +25,11 @@ module OauthChina
     end
     
     def my_name
-      @all_my_info["screen_name"]
+      all_my_info["screen_name"]
     end
     
     def my_id
-      @all_my_info["id"]
+      all_my_info["id"]
     end
     
     def all_my_info
