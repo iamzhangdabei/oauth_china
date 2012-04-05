@@ -33,7 +33,7 @@ module OauthChina
     end
     
     def all_my_info
-      @all_my_info || = JSON.parse(self.get("http://api.t.sina.com.cn/account/verify_credentials.json").body)
+      @all_my_info ||= JSON.parse(self.get("http://api.t.sina.com.cn/account/verify_credentials.json").body)
     end
     
     def add_status(content, options = {})
